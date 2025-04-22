@@ -1,0 +1,171 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* CSS Reset - Remove estilizações padrão dos navegadores */
+
+/* Reset de Box Model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Elementos HTML5 display-block para navegadores antigos */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Corpo e HTML */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* Remover estilo de listas */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remover estilo de links */
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Estilo de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Formulários e botões */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+/* Remover estilo de espaçamento de texto, bordas, etc. */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Corrige inconsistências de font em todos os navegadores */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Remover estilos de texto padrão */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Elementos em linha */
+small {
+  font-size: 80%;
+}
+
+/* Evitar problemas com elementos interativos */
+summary {
+  display: list-item;
+}
+
+/* Remove espaço extra abaixo de imagens */
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remover realce ao focar */
+:focus {
+  outline: 0;
+}
+
+/* Correções para aparência em iOS */
+button,
+input,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Corrigir o cursor para botões */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  cursor: pointer;
+}
+
+/* Melhoria de texto */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
