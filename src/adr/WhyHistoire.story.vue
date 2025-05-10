@@ -2,8 +2,8 @@
   <Story
     title="Por que usar o Histoire?"
     group="adr"
-    docs-only
     icon="carbon:bookmark"
+    docs-only
   />
 </template>
 
